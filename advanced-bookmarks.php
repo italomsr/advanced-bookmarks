@@ -1,14 +1,3 @@
-<?php
-/*
-Plugin Name: Advanced Bookmarks
-Plugin URI: https://github.com/italomsr/advanced-bookmarks
-Description: A set of advanced bookmarks for counting words, keyword density, duplicate text, links, and more..
-Version: 1.0
-Author: Italo Mariano 
-Author URI: https://www.linkedin.com/in/italomsr/
-
-*/
-
 function advanced_bookmarks_submenu($wp_admin_bar) {
     $args = array(
         'id'    => 'advanced_bookmarks',
@@ -35,7 +24,7 @@ function advanced_bookmarks_submenu($wp_admin_bar) {
     $args = array(
         'id'    => 'keyword_density_bookmark',
         'title' => 'Keyword Density',
-        'href'  => '#2',
+        'href'  => '#',
         'parent' => 'advanced_bookmarks',
         'meta'  => array(
             'class' => 'keyword_density_bookmark',
@@ -48,7 +37,7 @@ function advanced_bookmarks_submenu($wp_admin_bar) {
     $args = array(
         'id'    => 'find_bookmark',
         'title' => 'Find Duplicate',
-        'href'  => '#3',
+        'href'  => '#',
         'parent' => 'advanced_bookmarks',
         'meta'  => array(
             'class' => 'keyword_density_bookmark',
@@ -61,7 +50,7 @@ function advanced_bookmarks_submenu($wp_admin_bar) {
     $args = array(
         'id'    => 'nofollow_bookmark',
         'title' => 'Links Nofollow',
-        'href'  => '#4',
+        'href'  => '#',
         'parent' => 'advanced_bookmarks',
         'meta'  => array(
             'class' => 'nofollow_bookmark',
@@ -74,7 +63,7 @@ function advanced_bookmarks_submenu($wp_admin_bar) {
     $args = array(
         'id'    => 'yellow_bookmark',
         'title' => 'Nofollow (yellow)',
-        'href'  => '#5',
+        'href'  => '#',
         'parent' => 'advanced_bookmarks',
         'meta'  => array(
             'class' => ' yellow_bookmark',
@@ -87,7 +76,7 @@ function advanced_bookmarks_submenu($wp_admin_bar) {
     $args = array(
         'id'    => 'broken_bookmark',
         'title' => 'Broken links (Red)',
-        'href'  => '#6',
+        'href'  => '#',
         'parent' => 'advanced_bookmarks',
         'meta'  => array(
             'class' => 'broken_bookmark',
