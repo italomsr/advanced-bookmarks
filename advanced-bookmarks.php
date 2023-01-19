@@ -1,3 +1,14 @@
+<?php
+/*
+Plugin Name: Advanced Bookmarks
+Plugin URI: https://github.com/italomsr/advanced-bookmarks
+Description: A set of advanced bookmarks for counting words, keyword density, duplicate text, links, and more..
+Version: 1.0
+Author: Italo Mariano 
+Author URI: https://www.linkedin.com/in/italomsr/
+
+*/
+
 function advanced_bookmarks_submenu($wp_admin_bar) {
     $args = array(
         'id'    => 'advanced_bookmarks',
