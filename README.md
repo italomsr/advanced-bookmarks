@@ -1,2 +1,2 @@
 # Plugin advanced-bookmarks
-Loading ...
+A set of advanced bookmarks for counting words, keyword density, duplicate text (Google) and links.
