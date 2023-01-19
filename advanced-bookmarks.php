@@ -101,13 +101,15 @@ function advanced_bookmarks_submenu($wp_admin_bar) {
 add_action('admin_bar_menu', 'advanced_bookmarks_submenu', 100);
 ?>
 
-<script>
-  function adWords(){
+<script> 
+//selects all the text on the webpage using document.body.innerText and counts the number of words using the split() method. It then displays an alert message with the number of words on the page.    
+function adWords(){
   var text = document.body.innerText;
   var wordCount = text.split(" ").length;
   alert("🛠️ This webpage has " + wordCount + " words.");
 }
 
+//The second function, adKeyword(), prompts the user to enter a keyword and then checks the density of that keyword on the page by counting the number of times it appears and dividing it by the total number of words on the page. It then displays an alert message with the keyword density.
 function adKeyword(){
 var keyword = prompt("🛠️ Enter the keyword you want to check:");
 if (keyword) {
@@ -120,7 +122,7 @@ if (keyword) {
     alert("Please enter a keyword to check");
 }
 }
-
+//The third function, adDuplicate(), gets the selected text on the page and opens a new browser tab with a Google search for that text.
 function adDuplicate(){
 var selectedText = window.getSelection().toString();
 if (selectedText) {
@@ -130,7 +132,7 @@ window.open(googleSearch);
 alert("Please select some text before running this function.");
 }
 }
-
+//The fourth function, adNofollow(), counts the number of links on the page that have the rel attribute set to "nofollow" and displays an alert message with the count.
 function adNofollow(){
 var links = document.getElementsByTagName("a");
 var totalLinks = links.length;
@@ -143,6 +145,7 @@ nofollowLinks++;
 alert("🛠️ This webpage has " + totalLinks + " links. " + nofollowLinks + " of them have rel='nofollow'.");
 }
 
+//The fifth function, adNfyellow(), changes the background color of all links on the page with the rel attribute set to "nofollow" to yellow, it also change the padding and fontWeight
 function adNfyellow(){
     var links = document.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
@@ -154,6 +157,7 @@ function adNfyellow(){
 }
 }
 
+//The sixth function, AdBroken(), checks all the links on the page that starts with "http" and checks if they are broken, if they are, it change the background color, color, padding and fontWeight of the link
 function AdBroken(){
 var links = document.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
