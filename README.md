@@ -20,4 +20,7 @@ Changes the background color of all links on the page with the rel attribute set
 Checks all the links on the page that starts with "http" and checks if they are broken, if they are, it change the background color, color, padding and fontWeight of the link
 
 ## Display menubar: 
-![menubar](https://user-images.githubusercontent.com/84940616/213586562-cc961068-31e7-4ddf-8a6a-1b7b2a637a09.png)
+![menubar](https://user-images.githubusercontent.com/84940616/213591746-dad2ccc8-56f6-4d56-a477-c73d1ac4bee0.png)
+
+## Display Broken link and Highlight nofollow: 
+![broken](https://user-images.githubusercontent.com/84940616/213591823-a852de33-7c64-4f33-ae80-c9e75ae4a2db.png)
