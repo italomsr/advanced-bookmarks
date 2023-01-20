@@ -2,22 +2,22 @@
 A set of advanced bookmarks for counting words, keyword density, duplicate text (Google) and links.
 
 ## 1. Count words
-Count words in a webpage via bookmark - add this as a bookmark to your web browser. When added, visit a webpage and hit the bookmark for a popup count.
+Selects all the text on the webpage using document.body.innerText and counts the number of words using the split() method. It then displays an alert message with the number of words on the page.
 
 ## 2. Count keyword frequency
-Count keyword frequency within a page - add this as a bookmark to your web browser, When added, visit a page & hit the bookmark to enter a keyword and then find out % within the content.
+Prompts the user to enter a keyword and then checks the density of that keyword on the page by counting the number of times it appears and dividing it by the total number of words on the page. It then displays an alert message with the keyword density.
 
 ## 3. Find duplicate
-Find duplicate copy elsewhere on a website or the web - use this script to create a bookmark - select a piece of text on your page and hit the bookmark and it'll look for that text elsewhere - nb remove brackets from the googlesearch URL next to com.
+Gets the selected text on the page and opens a new browser tab with a Google search for that text.
 
 ## 4. Count Links
-Count how many links are follow vs nofollow in a page
+Counts the number of links on the page that have the rel attribute set to "nofollow" and displays an alert message with the count.
 
 ## 5. Highlight all nofollow
-Highlight all nofollow text links yellow - add this script to highlight all nofollow links within a page in yellow.
+Changes the background color of all links on the page with the rel attribute set to "nofollow" to yellow, it also change the padding and fontWeight
 
 ## 6. Broken link
-Highlight all broken links in a webpage - add this script to your bookmarks to check & highlight all broken outbound links on a page.
+Checks all the links on the page that starts with "http" and checks if they are broken, if they are, it change the background color, color, padding and fontWeight of the link
 
 ## Display menubar: 
 ![menubar](https://user-images.githubusercontent.com/84940616/213586562-cc961068-31e7-4ddf-8a6a-1b7b2a637a09.png)
