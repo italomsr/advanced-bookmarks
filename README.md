@@ -24,3 +24,6 @@ Checks all the links on the page that starts with "http" and checks if they are 
 
 ## Display Broken link and Highlight nofollow: 
 ![broken](https://user-images.githubusercontent.com/84940616/213591823-a852de33-7c64-4f33-ae80-c9e75ae4a2db.png)
+
+## Display plugin: 
+![Screenshot_14](https://user-images.githubusercontent.com/84940616/213592038-1d6af2c3-919b-4844-99f6-d9f495246394.png)
